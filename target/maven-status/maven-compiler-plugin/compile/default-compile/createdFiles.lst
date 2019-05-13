@@ -1,0 +1,10 @@
+br/com/joacirjunior/whitelist/model/InsertCommand.class
+br/com/joacirjunior/whitelist/model/ValidationResponse.class
+br/com/joacirjunior/whitelist/enums/ECommandType.class
+br/com/joacirjunior/whitelist/model/ValidationCommand.class
+br/com/joacirjunior/whitelist/model/ICommand.class
+br/com/joacirjunior/whitelist/producer/Producer.class
+br/com/joacirjunior/whitelist/consumer/Consumer.class
+br/com/joacirjunior/whitelist/WhitelistAnalyzerApp.class
+br/com/joacirjunior/whitelist/database/entity/Whitelist.class
+br/com/joacirjunior/whitelist/config/RabbitMqConfig.class

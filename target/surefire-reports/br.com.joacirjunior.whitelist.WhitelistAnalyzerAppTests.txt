@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.joacirjunior.whitelist.WhitelistAnalyzerAppTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.065 sec - in br.com.joacirjunior.whitelist.WhitelistAnalyzerAppTests

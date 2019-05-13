@@ -1,0 +1,10 @@
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/enums/ECommandType.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/WhitelistAnalyzerApp.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/model/ValidationCommand.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/model/ValidationResponse.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/database/entity/Whitelist.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/config/RabbitMqConfig.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/model/InsertCommand.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/producer/Producer.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/consumer/Consumer.java
+/home/junior/Workspaces/WhitelistAnalyzer/src/main/java/br/com/joacirjunior/whitelist/model/ICommand.java

@@ -1,0 +1,66 @@
+2019-05-12 23:32:03.835  WARN 11607 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/junior/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+	jar:file:/home/junior/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2019-05-12 23:32:03.867  INFO 11607 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : Starting WhitelistAnalyzerAppTests on junior-pc with PID 11607 (started by junior in /home/junior/Workspaces/WhitelistAnalyzer)
+2019-05-12 23:32:03.872  INFO 11607 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : No active profile set, falling back to default profiles: default
+2019-05-12 23:32:03.964  INFO 11607 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3fb1549b: startup date [Sun May 12 23:32:03 BRT 2019]; root of context hierarchy
+2019-05-12 23:32:05.662  INFO 11607 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$6f0c0cae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-12 23:32:07.024  INFO 11607 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2019-05-12 23:32:07.029  INFO 11607 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-05-12 23:32:07.158  INFO 11607 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#38ab19f8:0/SimpleConnection@91c81f5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 43160]
+2019-05-12 23:32:07.505  INFO 11607 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : Started WhitelistAnalyzerAppTests in 4.429 seconds (JVM running for 6.385)
+2019-05-12 23:32:07.675  INFO 11607 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3fb1549b: startup date [Sun May 12 23:32:03 BRT 2019]; root of context hierarchy
+2019-05-12 23:32:07.687  INFO 11607 --- [Thread-2] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-05-12 23:32:07.693  INFO 11607 --- [Thread-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2019-05-12 23:32:08.636  INFO 11607 --- [Thread-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2019-05-12 23:32:08.636  INFO 11607 --- [Thread-2] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2019-05-12 23:33:33.610  WARN 11771 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/junior/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+	jar:file:/home/junior/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2019-05-12 23:33:33.684  INFO 11771 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : Starting WhitelistAnalyzerAppTests on junior-pc with PID 11771 (started by junior in /home/junior/Workspaces/WhitelistAnalyzer)
+2019-05-12 23:33:33.686  INFO 11771 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : No active profile set, falling back to default profiles: default
+2019-05-12 23:33:33.786  INFO 11771 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3fb1549b: startup date [Sun May 12 23:33:33 BRT 2019]; root of context hierarchy
+2019-05-12 23:33:35.474  INFO 11771 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9d7e69e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-12 23:33:37.319  INFO 11771 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2019-05-12 23:33:37.325  INFO 11771 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-05-12 23:33:37.523  INFO 11771 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5d17d25e:0/SimpleConnection@48612b1a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 43172]
+2019-05-12 23:33:37.794  INFO 11771 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : Started WhitelistAnalyzerAppTests in 5.414 seconds (JVM running for 7.972)
+2019-05-12 23:33:37.963  INFO 11771 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3fb1549b: startup date [Sun May 12 23:33:33 BRT 2019]; root of context hierarchy
+2019-05-12 23:33:37.967  INFO 11771 --- [Thread-2] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-05-12 23:33:37.977  INFO 11771 --- [Thread-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2019-05-12 23:33:38.921  INFO 11771 --- [Thread-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2019-05-12 23:33:38.921  INFO 11771 --- [Thread-2] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2019-05-12 23:36:51.958  WARN 11998 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/junior/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+	jar:file:/home/junior/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2019-05-12 23:36:52.006  INFO 11998 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : Starting WhitelistAnalyzerAppTests on junior-pc with PID 11998 (started by junior in /home/junior/Workspaces/WhitelistAnalyzer)
+2019-05-12 23:36:52.008  INFO 11998 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : No active profile set, falling back to default profiles: default
+2019-05-12 23:36:52.091  INFO 11998 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@10feca44: startup date [Sun May 12 23:36:52 BRT 2019]; root of context hierarchy
+2019-05-12 23:36:53.928  INFO 11998 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8016066f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-12 23:36:55.238  INFO 11998 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2019-05-12 23:36:55.240  INFO 11998 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-05-12 23:36:55.350  INFO 11998 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#38828697:0/SimpleConnection@8fe7a04 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 43196]
+2019-05-12 23:36:55.622  INFO 11998 --- [main] b.c.j.w.WhitelistAnalyzerAppTests        : Started WhitelistAnalyzerAppTests in 4.398 seconds (JVM running for 6.758)
+2019-05-12 23:36:55.811  INFO 11998 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@10feca44: startup date [Sun May 12 23:36:52 BRT 2019]; root of context hierarchy
+2019-05-12 23:36:55.828  INFO 11998 --- [Thread-2] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-05-12 23:36:55.841  INFO 11998 --- [Thread-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2019-05-12 23:36:56.773  INFO 11998 --- [Thread-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2019-05-12 23:36:56.773  INFO 11998 --- [Thread-2] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
