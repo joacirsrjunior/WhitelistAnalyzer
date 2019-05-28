@@ -1,5 +1,3 @@
-Segue abaixo o que foi possível realizar e o que ficou pendente, dentro do que eu considero essencial para resolução do problema proposto:
-
 
 ===================== TO-DO =====================
 - Obter parâmetros a partir do enviroment
